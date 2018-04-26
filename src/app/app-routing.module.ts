@@ -1,5 +1,11 @@
-import { FullLayoutComponent } from './component/_containers/full-layout/full-layout.component';
+
+import {
+  FullLayoutComponent ,
+  SimpleLayoutComponent
+} from './component/_containers';
+
 import { DashboardComponent } from './component/dashboard/dashboard.component';
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './component/login/login.component';
