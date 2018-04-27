@@ -1,3 +1,4 @@
+import { ProjectModule } from './component/project/project.module';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -12,6 +13,7 @@ import { PageNotFoundComponent } from './component/page-not-found/page-not-found
 
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { ManageUsersComponent } from './component/users/manage-users/manage-users.component';
+
 
 // Import containers
 import {
@@ -47,7 +49,8 @@ const APP_COMPONENTS = [
     DashboardComponent,
     ManageUsersComponent,
     ...APP_CONTAINERS,
-    ...APP_COMPONENTS
+    ...APP_COMPONENTS,
+    ProjectModule
   ],
   imports: [
     BrowserModule,
